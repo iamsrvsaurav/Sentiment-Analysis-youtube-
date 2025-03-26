@@ -136,8 +136,8 @@ grid_result = grid.fit(X_train, y_train)
 | Model Type | Accuracy Before Hyperparameter Tuning | Accuracy After Hyperparameter Tuning |
 |------------|------------------------------------|----------------------------------|
 | Simple LSTM | 72% | 80.07% |
-| Bidirectional LSTM | 74% | - |
-| Bidirectional LSTM + GRU | 76% | 86.09% |
+| Bidirectional LSTM | 74% | 86.09% |
+| Bidirectional LSTM + GRU | 76% | 93.35% |
 | Final Optimized Model | - | **93.35%** |
 
 ## Conclusion & Future Scope
